@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rabin Pudasaini - Modern portfolio website showcasing projects, services, and contact details.">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Rabin | Modern Portfolio</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="container nav">
+            <a href="#home" class="logo">Rabin.</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#services" class="nav__link">Services</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#gallery" class="nav__link">Gallery</a></li>
+                    <li><a href="#experience" class="nav__link">Experience</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">
+                    <i class='bx bx-sun'></i>
+                </button>
+                <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="hero__orb hero__orb--one" aria-hidden="true"></div>
+            <div class="hero__orb hero__orb--two" aria-hidden="true"></div>
+            <div class="container hero__content">
+                <div class="hero__text">
+                    <p class="eyebrow">Python Django Developer • Frontend Developer • Data Analyst • Networking</p>
+                    <p class="hero__typewriter" aria-live="polite">
+                        <span id="heroTypewriterText">I build scalable web apps</span>
+                        <span class="hero__caret" aria-hidden="true"></span>
+                    </p>
+                    <h1>Building <span class="hero__gradient-text">modern web solutions</span> with design, backend logic, and data-driven decisions.</h1>
+                    <p class="hero__description">I work across HTML, CSS, JavaScript, and Python Django to create responsive, reliable, and scalable websites. I also bring networking knowledge to build secure and stable deployments.</p>
+                    <div class="hero__actions">
+                        <a href="#projects" class="btn btn--primary">View Projects</a>
+                        <a href="#" id="viewCvButton" class="btn btn--ghost">View CV</a>
+                        <a href="#" id="downloadButton" class="btn btn--ghost">Download CV</a>
+                    </div>
+                    <div class="hero__pills">
+                        <span>Fast Delivery</span>
+                        <span>Clean Code</span>
+                        <span>Business Focused</span>
+                    </div>
+                    <div class="hero__social">
+                        <a href="https://www.linkedin.com/in/rabin-pudasaini-29390a26a/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/rabinpudasaini" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.instagram.com/mr.rabi_pudasaini/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+                <div class="hero__photo-frame">
+                    <img src="img/rabi.png" alt="Portrait of Rabin" class="hero__photo">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container about">
+                <div class="about__image">
+                    <img src="img/about.jpg" alt="About Rabin">
+                </div>
+                <div class="about__content">
+                    <p class="section-label">About Me</p>
+                    <h2>I am a passionate developer with strong networking and problem-solving skills.</h2>
+                    <p>I work with HTML, CSS, JavaScript, Python, and Django to build practical, modern, and user-friendly web solutions. I enjoy turning ideas into real projects, from frontend interface design to backend logic and database integration, while keeping performance and clean code as top priorities.</p>
+                    <p>I am a graduate from Herald College Kathmandu (University of Wolverhampton), where I completed BSc (Hons) Computer Science. Along with development, I have networking knowledge and real-world support experience, which helps me build reliable systems and communicate technical solutions clearly with clients and teams.</p>
+                    <div class="about__stats">
+                        <article>
+                            <h3>25+</h3>
+                            <p>Completed designs</p>
+                        </article>
+                        <article>
+                            <h3>15+</h3>
+                            <p>Happy clients</p>
+                        </article>
+                        <article>
+                            <h3>99%</h3>
+                            <p>Project delivery rate</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--muted" id="services">
+            <div class="container">
+                <p class="section-label center">Services</p>
+                <h2 class="section-title">What I Can Do For You</h2>
+                <div class="cards cards--three">
+                    <article class="card">
+                        <i class='bx bx-layout'></i>
+                        <h3>Frontend Development</h3>
+                        <p>Modern interfaces built with HTML, CSS, and JavaScript for clean UX and responsive performance.</p>
+                    </article>
+                    <article class="card">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Python Django Development</h3>
+                        <p>Robust backend systems, admin panels, and dynamic web applications powered by Django.</p>
+                    </article>
+                    <article class="card">
+                        <i class='bx bx-line-chart'></i>
+                        <h3>Networking & Deployment</h3>
+                        <p>Basic-to-intermediate networking knowledge for secure hosting, configuration, and system stability.</p>
+                    </article>
+                    <article class="card">
+                        <i class='bx bx-data'></i>
+                        <h3>Data Analysis</h3>
+                        <p>Data cleaning, dashboard reporting, and actionable insights using practical analytical workflows.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <p class="section-label center">Projects</p>
+                <h2 class="section-title">Selected Work</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img src="img/work1.jpg" alt="Classic Tech retail support networking">
+                        <div class="project-card__body">
+                            <h3>Retail Support (Networking) - Classic Tech</h3>
+                            <p>Currently working at Classic Tech in a retail support role with networking-based responsibilities and technical customer support.</p>
+                            <div class="project-card__actions">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link project-link--ghost">Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="img/work2.jpg" alt="Blood Bank Management System project">
+                        <div class="project-card__body">
+                            <h3>Blood Bank Management System</h3>
+                            <p>Developed a complete Blood Bank Management System using Python Django with responsive frontend integration.</p>
+                            <div class="project-card__actions">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link project-link--ghost">Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="img/work3.jpg" alt="Student Management System project">
+                        <div class="project-card__body">
+                            <h3>Student Management System</h3>
+                            <p>Built a Student Management System using Java with core modules for student records and management workflow.</p>
+                            <div class="project-card__actions">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link project-link--ghost">Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="img/work4.jpg" alt="Car Delivery System game development project">
+                        <div class="project-card__body">
+                            <h3>Car Delivery System (Game Development)</h3>
+                            <p>Created a game development project: Car Delivery System, made in Elastic.</p>
+                            <div class="project-card__actions">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link project-link--ghost">Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--muted" id="gallery">
+            <div class="container">
+                <p class="section-label center">Gallery</p>
+                <h2 class="section-title">Photo Gallery</h2>
+                <div class="gallery-grid">
+                    <article class="gallery-item">
+                        <img src="img/work1.jpg" alt="Gallery image 1">
+                        <button type="button" class="gallery-view-btn">View</button>
+                    </article>
+                    <article class="gallery-item">
+                        <img src="img/work2.jpg" alt="Gallery image 2">
+                        <button type="button" class="gallery-view-btn">View</button>
+                    </article>
+                    <article class="gallery-item">
+                        <img src="img/work3.jpg" alt="Gallery image 3">
+                        <button type="button" class="gallery-view-btn">View</button>
+                    </article>
+                    <article class="gallery-item gallery-item--tall">
+                        <img src="img/work4.jpg" alt="Gallery image 4">
+                        <button type="button" class="gallery-view-btn">View</button>
+                    </article>
+                    <article class="gallery-item">
+                        <img src="img/work5.jpg" alt="Gallery image 5">
+                        <button type="button" class="gallery-view-btn">View</button>
+                    </article>
+                    <article class="gallery-item">
+                        <img src="img/work6.jpg" alt="Gallery image 6">
+                        <button type="button" class="gallery-view-btn">View</button>
+                    </article>
+                    <article class="gallery-item">
+                        <img src="img/about.jpg" alt="Gallery image 7">
+                        <button type="button" class="gallery-view-btn">View</button>
+                    </article>
+                    <article class="gallery-item gallery-item--portrait">
+                        <img src="img/rabi.png" alt="Gallery image 8">
+                        <button type="button" class="gallery-view-btn">View</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--muted" id="experience">
+            <div class="container">
+                <p class="section-label center">Experience</p>
+                <h2 class="section-title">Career Highlights</h2>
+                <div class="timeline">
+                    <article class="timeline__item">
+                        <span>Current</span>
+                        <h3>Retail Support (Networking) - Classic Tech</h3>
+                        <p>Currently working at Classic Tech in a retail support role with networking-based responsibilities and technical customer support.</p>
+                    </article>
+                    <article class="timeline__item">
+                        <span>2025 - 2026</span>
+                        <h3>Blood Bank Management System</h3>
+                        <p>Developed a complete Blood Bank Management System using Python Django with responsive frontend integration.</p>
+                    </article>
+                    <article class="timeline__item">
+                        <span>2023 - 2025</span>
+                        <h3>Student Management System</h3>
+                        <p>Built a Student Management System using Java with core modules for student records and management workflow.</p>
+                    </article>
+                    <article class="timeline__item">
+                        <span>2021 - 2023</span>
+                        <h3>Car Delivery System (Game Development)</h3>
+                        <p>Created a game development project: Car Delivery System, made in Elastic.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="container contact">
+                <div>
+                    <p class="section-label">Contact</p>
+                    <h2>Let’s build your next modern website.</h2>
+                    <p>Available for freelance projects, collaborations, and long-term work.</p>
+                    <a href="mailto:rabin@example.com" class="btn btn--primary">Send an Email</a>
+                </div>
+                <form class="contact__form">
+                    <input type="text" placeholder="Your name" required>
+                    <input type="email" placeholder="Your email" required>
+                    <textarea rows="6" placeholder="Tell me about your project" required></textarea>
+                    <button type="submit" class="btn btn--primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div class="lightbox" id="galleryLightbox" aria-hidden="true">
+        <button type="button" class="lightbox__close" id="lightboxClose" aria-label="Close full view">
+            <i class='bx bx-x'></i>
+        </button>
+        <img id="lightboxImage" src="" alt="Full view image">
+    </div>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <p>© 2026 Rabin Pudasaini. All rights reserved.</p>
+            <div>
+                <a href="https://www.facebook.com/rabi.pudasaini112/"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/mr.rabi_pudasaini/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/rabinpudasaini"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
